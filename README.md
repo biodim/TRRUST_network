@@ -1,4 +1,4 @@
-## TRRUST_ etwork
+## TRRUST  Network
 
 Version: **0.5.0**
 
