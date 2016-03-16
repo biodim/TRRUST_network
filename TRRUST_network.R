@@ -3,7 +3,7 @@
 # Date:      2016-03-16
 # Author(s): Dmitry Horodetsky
 # 
-# Verson     0.5 - initial commit
+# Verson     0.5.0 - initial commit
 
 
 
