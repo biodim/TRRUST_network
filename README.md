@@ -24,6 +24,6 @@ It focuses on 11 input genes:
 [1] "GPR39"  "HNF1A"  "KCNJ11" "LDLR"   "LIPC"   "MMP7"   "MYC"    "NPC1L1"
 [9] "NR1I2"  "PCSK9"  "PPARA" 
 ```
-and shows the TF factors that regulate them
+and shows the TFs that **activate** them
 
 You can do these kinds of visualizations right now. Any number of genes (graph looks nicer with less genes present). You can also filter by interaction: activation, repression or both
