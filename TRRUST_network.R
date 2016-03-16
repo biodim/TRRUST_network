@@ -3,7 +3,7 @@
 # Date:      2016-03-16
 # Author(s): Dmitry Horodetsky
 # 
-# Verson     0.5.0 - initial commit
+# Verson     1.0 - initial commit
 
 
 
@@ -87,8 +87,8 @@ typeSelect <-function(x, type,invert_mode){
     message("Only three Arguments are supported 'Activation', 'Repression' or 'Unknown'. You can only use these arguments one at a time.")
   } else {
     
-    if (missing(invert)){
-      invert <- FALSE
+    if (missing(invert_mode)){
+      invert_mode <- FALSE
     }
     
     type_filter <- grep(type,x[,3], invert=invert_mode)
