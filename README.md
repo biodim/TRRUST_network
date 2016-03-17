@@ -2,15 +2,15 @@
 
 Version: **0.7.0**
 
-Features: basic filtering and visualizations
+Features: Basic Filtering and Visualization
 
-To Do: Possible Improvements to the Weighing algorithm
+To Do: Possible Improvements to the Weighting algorithm
 
-**New and Updated Graphs**:
+**New and Updated Graph**:
 
 https://rawgit.com/biodim/TRRUST_network/master/html/workflow.html
 
-(Take a bit of time to load. You can zoom using the scroll wheel on your mouse or a trackpad)
+(Takes a bit of time to load. You can zoom using the scroll wheel on your mouse or a trackpad)
 
 If you go through the **workflow**, you can generate this exact graph yourself.
 
