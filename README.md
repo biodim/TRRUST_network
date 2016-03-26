@@ -7,7 +7,7 @@ Version: **1.0.0**
 **New**: 
  - Add PMIDs to Edges
  - Label each Edge with its respective Action (Activation, Repression, Unknown)
- - Generate a "frozen" graph with visGraph_f()/exportVis_f()
+ - Generate a "frozen" graph with visGraph_f() and exportVis_f()
  - Workflow Updated
  
 The TRRUST_network module supports two modes:
