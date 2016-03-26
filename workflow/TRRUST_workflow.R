@@ -53,9 +53,14 @@ genes <- randomGenes(trrust,2)
 
 #Now lets select the type of interaction we want these genes to display
 #the TRRUST database has "Activation", "Repression" and "Unknown"
-#For this example let's just use "Activation" and remove all other types
+
+#If you want to use "Activation" and remove all other types
 
 #trrust <- typeSelect(trrust,"Activation")
+
+#This wil filter out all other interactions from the trrust database
+
+#In this example I want all interactions
 
 ####PROTIP!###########
 #Let's say you want to remove all Unknown Interactions
@@ -65,9 +70,8 @@ genes <- randomGenes(trrust,2)
 #So you don't have to specify this everytime
 ####PROTIP!###########
 
-#Our trrust dataframe has ALL ACTIVATION interactions.
-#Lets filter out, so we get activation interactions that are only relevant
-#to our gene file
+
+#Lets filter the trrust database so it only contains our genes of interest
 
 #x is the name of the dataframe which has your TRRUST network data
 #gene_char is your genes in a 'character' format
