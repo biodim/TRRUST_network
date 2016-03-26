@@ -246,10 +246,6 @@ getPMIDs <- function(edges,trrust){
   return(edges)
 }
 
-##
-#getAction - append an action to the Edge List
-##
-
 getAction <- function(edges,trrust){
   trrust[3] <- apply(trrust[3], 2, function (x) as.character(gsub("Activation","[A]",x)))
   trrust[3] <- apply(trrust[3], 2, function (x) as.character(gsub("Repression","[R]",x)))
@@ -269,7 +265,7 @@ getAction <- function(edges,trrust){
 
 visGraph <-function(nodes,edges){
   visNetwork(nodes, edges, width = "100%") %>% visEdges(arrow = trrust_network_mode[2], font = list(align = "middle", size = "9", smooth = FALSE)) %>%
-    visPhysics(solver = "barnesHut")
+    visPhysics(solver = "forceAtlas2Based")
 }
 
 visGraph_f <-function(nodes,edges){
@@ -281,12 +277,17 @@ exportVis <- function(name){
   #write a check for nodes and edges later HERE
   network <- visGraph(nodes, edges)
   htmlwidgets::saveWidget(network, paste0(name,".html"))
-  
+}
+
+exportVis_f <- function(name){
+  #write a check for nodes and edges later HERE
+  network <- visGraph_f(nodes, edges)
+  htmlwidgets::saveWidget(network, paste0(name,".html"))
 }
   
-##################
-#Helper Functions#
-##################
+###################
+#Helper Functions #
+###################
 setMode <- function(mode_num){
   if (mode_num == 1){
     trrust_network_mode <<- c(1,"to")
