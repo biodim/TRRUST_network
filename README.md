@@ -98,4 +98,10 @@ https://rawgit.com/biodim/TRRUST_network/master/html/ex_4.html
 
 [(the code for example 3 and example 4 is available here) ](https://github.com/biodim/TRRUST_network/blob/master/workflow/ex_3_and_4.R)
 
+Here is the "old", 0.7.0 graph:
+
+https://rawgit.com/biodim/TRRUST_network/master/html/workflow.html
+
+
+
 
