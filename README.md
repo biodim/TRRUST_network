@@ -72,7 +72,7 @@ Selecting Mode 2 in the module, you would get the following graph:
 
 https://rawgit.com/biodim/TRRUST_network/master/html/ex_2.html
 
-[(here is the code to generate it yourself link) ](https://github.com/biodim/TRRUST_network/blob/master/workflow/ex_2.R)
+[(here is the code to generate it yourself) ](https://github.com/biodim/TRRUST_network/blob/master/workflow/ex_2.R)
 
 
 We can see that there are quite a number of TFs that affect those genes. 
